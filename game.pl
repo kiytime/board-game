@@ -35,6 +35,8 @@ my $winner_id;
 say "Welcome to the $title!";
 
 while (!defined $winner_id) {
+    print "-------------------------------------\n";
+
   my $player = $players->[ $player_id ];
   say "It is $player->{name}'s turn!";
 
