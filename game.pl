@@ -1,4 +1,5 @@
-use strictures 2;
+use strict;
+use warnings;
 use feature ':5.14';
 use List::Util qw( shuffle );
 
